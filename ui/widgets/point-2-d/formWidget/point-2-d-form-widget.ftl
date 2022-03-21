@@ -6,4 +6,4 @@
 <#-- Don't add anything above this line. The build scripts will automatically link the compiled JS and CSS for you and add them above this line so that the widget can be loaded-->
 
 <#-- This is the custom element -->
-<point-2-d-form service-url="/excess17/myapp-2-mysql" />
+<point-2-d-form service-url="/lcorsettientando/myapp-2-mysql" />
