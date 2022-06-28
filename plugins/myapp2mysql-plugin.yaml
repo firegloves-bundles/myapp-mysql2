@@ -1,4 +1,4 @@
-descriptorVersion: v4
+descriptorVersion: v5
 name: myapp-2-mysql-service
 image: lcorsettientando/myapp-2-mysql:2.0.0
 dbms: mysql
@@ -6,6 +6,7 @@ healthCheckPath: "/management/health"
 roles:
   - "myapp2mysql-admin"
   - "point-2-d-admin"
+ingressPath: "/mycustom/ingresso"
 # entando-needle-descriptor-add-roles - Entando blueprint will add roles here
 #
 ### uncomment lines below to enable the injection of environment variables in your plugin
